@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Converts markdown text to HTML
+        uses: jaywcjlove/markdown-to-html-cli@v3.5.3
+        with:
+          output: output/index.htm # optional, default is index.html
+          source: index.md # optional, default is README.md
+          
+          
