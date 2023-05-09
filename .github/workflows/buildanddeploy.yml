@@ -39,6 +39,6 @@ jobs:
         uses: jaywcjlove/markdown-to-html-cli@v3.5.3
         with:
           output: output/index.htm # optional, default is index.html
-          source: index.md # optional, default is README.md
+          source: content/index.md # optional, default is README.md
           
           
